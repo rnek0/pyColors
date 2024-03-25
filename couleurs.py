@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-#
-#
+# Ejercicios de entrenamiento en el curso de Python Ofensivo hack4u.io
+# 23-03-2024 / rnek0
 
 class Banner:
     """Display banner app"""
@@ -78,13 +78,12 @@ class TUI:
         
 
 if __name__ == '__main__':
-    #print(Banner.title)
     #secuencias_de_escape()
     
     tui = TUI()
     tui.escribe(Banner.title, Color.rojo)
     tui.escribe("[+] Jugando con colores en el ejercicio de los decoradores...\n")
-    tui.escribe("Holas \o/ ,",Color.azul)
+    tui.escribe("Hola \o/ ,",Color.azul)
     tui.escribe("soy rnek0",Color.verde)
     tui.escribe(", que tal ?",Color.rojo)
     print("\n")
